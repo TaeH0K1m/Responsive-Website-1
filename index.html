@@ -2,8 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Responsive design</title>
+    <title>Tae Ho Kim</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -12,10 +15,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
+    <script src="js/caroufredsel.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   </head>
   <body>
 
+    <!-- Navigation Bar -->
     <header>
       <div class="container">
         <div class="row">
@@ -33,5 +38,49 @@
         </div>
       </div>
     </header>
+
+    <!-- Slider -->
+    <section class="slider">
+      <ul class="slider-carousel" id="slider-carousel">
+        <li class="img1">
+          <h2>HTML <span>STRUCTURE</span></h2>
+          <p>HTML structures a page.</p>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3"></i>
+          <i class="fab fa-js"></i>
+          <br>
+          <p>To build websites, you should know about HTML — <br>the fundamental technology used to define the structure of a webpage.</p>
+          <br>
+          <a href="#" class="btn btn-half">Get Started</a>
+          <a href="#" class="btn btn-full">Contact</a>
+        </li>
+        <li class="img2">
+          <h2>CSS <span>PRESENTATION</span></h2>
+          <p>CSS styles a page.</p>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3"></i>
+          <i class="fab fa-js"></i>
+          <br>
+          <p>CSS (Cascading Style Sheets) is used to style and layout web pages — <br>for example, to alter the font, colour, size and spacing of your content, split it into multiple columns, or add animations and other decorative features.</p>
+          <br>
+          <a href="#" class="btn btn-half">Get Started</a>
+          <a href="#" class="btn btn-full">Contact</a>
+        </li>
+        <li class="img3">
+          <h2>JS <span>BEHAVIOR</span></h2>
+          <p>JS makes a web dynamic.</p>
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3"></i>
+          <i class="fab fa-js"></i>
+          <br>
+          <p>JavaScript is a programming language that allows you to implement complex things on web pages - <br> every time a web page does more than just sit there and display static information for you to look at</p>
+          <br>
+          <a href="#" class="btn btn-half">Get Started</a>
+          <a href="#" class="btn btn-full">Contact</a>
+        </li>
+      </ul>
+    </section>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
